@@ -2,7 +2,7 @@
 
 ## Clustering for Codekicker.de
 
-Introduction:
+### Introduction:
 
 In the notebook, have used Nltk as the main library to solve the NLP task of clustering input sentences into 5 groups.
 
@@ -10,7 +10,7 @@ Different text preprocessing techniques such as tokenization, stemming, lemmatiz
 
 A simple method of clustering sentences based on the frequency counting of the words that matches with the specific tags is performed in this notebook.
 
-Inference:
+### Inference:
 
 Using frequency counting with respect to tags is choosen to cluster the input sentences, as it performs better than the other models. It gives better precision and recall scores comparatively.
 
@@ -20,7 +20,7 @@ The precision score of cluster 5 is less, may be because of the insuffiecient ta
 
 Having more tags(words) will help with better clustering. And having more datas could also help with the performance.
 
-Comparing with Other Models:
+### Comparing with Other Models:
 
 Have tried different Nlp and Ml models like KMeans Clustering , Agglomerative Clustering, Spectral Clustering, and BERT. But the models did not perform better than this model.
 
@@ -31,7 +31,7 @@ This could be because of not having enough dataset to train the model. By increa
 Having an imbalance in the dataset, ie the cluster 4 and 5 have very less data comparatively. Imbalanced dataset could also be a reason to affect the performace in ML models.
 
 
-Future work:
+### Future work:
 
 I could have done data augumentation to increase the number of data to achieve better performance.
 
